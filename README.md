@@ -1,24 +1,7 @@
 AI Image Forensics Analyzer
 An advanced forensic tool designed to detect and attribute AI-generated images by analyzing their intrinsic digital fingerprints. In an era where visual reality can be easily manipulated, this project provides a robust framework for distinguishing between authentic and synthetic media.
 
-📖 Table of Contents
-The Problem
 
-Key Features
-
-How It Works
-
-System Architecture
-
-Technology Stack
-
-Installation
-
-Usage
-
-Contributing
-
-License
 
 🎯 The Problem
 The rise of sophisticated AI models like DALL-E, Midjourney, and Stable Diffusion has made it increasingly difficult to differentiate between real photographs and AI-generated images. Traditional forensic methods are often insufficient because they fail to detect the subtle, embedded artifacts created by these models. This creates significant vulnerabilities for the spread of disinformation, copyright infringement, and deepfake-related fraud. This tool addresses that gap by providing a reliable method for source attribution.
@@ -64,47 +47,6 @@ Metadata: ExifTool
 Database: SQLite / PostgreSQL (configurable)
 
 Deployment: Docker (optional)
-
-⚙️ Installation
-To get a local copy up and running, follow these simple steps.
-
-Prerequisites:
-
-Python 3.9+
-
-pip (Python package installer)
-
-ExifTool (must be installed and accessible in your system's PATH)
-
-Installation guide for ExifTool
-
-Clone the repository:
-
-git clone https://github.com/joecodes21/Metadata-Analyzer
-cd Metadata-Analyzer
-
-Install Python dependencies:
-
-pip install -r requirements.txt
-
-🚀 Usage
-You can run the analysis from the command line or start the web interface.
-
-Command Line Interface (CLI):
-To analyze a single image:
-
-python analyze.py --file /path/to/your/image.jpg
-
-To analyze a directory of images:
-
-python analyze.py --dir /path/to/your/image_directory/
-
-Web Application:
-To launch the web server:
-
-python app.py
-
-Then, open your browser and navigate to http://127.0.0.1:5000.
 
 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
